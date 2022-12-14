@@ -120,7 +120,7 @@ def eli(f: array, g: array, p: array):
     :return: This function returns a parametric function of an ellipse with focus at 'f' and 'g'
     and that goes through a point 'p'.
     """
-    # ToDo: check if it works
+    # ToDo: check if it works.
     alpha = ang_h(g - f)
     k = dst(f, p) + dst(p, g)
     d_fg = dst(f, g)
